@@ -46,31 +46,60 @@ export const ContactWrapper = IntroWrapper.extend`
   background-color: #6440B2;
 `;
 
-export const ContactForm = styled.form`
+export const ContactFormDiv = styled.div`
   height:70vh;
   display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
 
 `;
+export const ContactForm = styled.form`
+  background-color: #EFEFEF;
+  display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  width: 40%;
+  height: 90%;
+  border-radius: 5px;
+`;
+
 
 export const Input = styled.input`
-  width:30%;
+  width:50%;
   background: none;
   border: none;
-  color: #EFEFEF;
+  color: black;
   font-size: 20px;
-  border-bottom: 2px solid #EFEFEF;
+  border-bottom: 2px solid #6440B2;;
 `;
 
 export const TextArea = styled.textarea`
-  width: 30%;
+  width: 50%;
   height: 100px;
+  border: 2px solid #6440B2;
+  background-color: #EFEFEF;
+`;
+
+export const FormButton = styled.button`
+  border: 2px solid #6440B2;
+  background:none;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: all 0.3s ease-out;
+  color: #6440B2;
+  cursor: pointer;
+  &:hover{
+    color: #EFEFEF;
+    background:#6440B2;
+  }
 `;
 
 export const Label = styled.label`
-  color: #EFEFEF;
+  color: #6440B2;
 `;
 
 export const TitleWrapper = styled.div`
