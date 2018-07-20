@@ -13,16 +13,17 @@ export const ProjectWrapper = IntroWrapper.extend`
 `;
 
 export const ProjectTitle = styled.div`
-  height: 30vh;
+  height: 20vh;
   display: flex;
   justify-content:center;
   align-items:center;
 `;
 
 export const ProjectList = styled.div`
-  height: 70vh;
+  height: 50vh;
   display:flex;
   justify-content: space-around;
+  align-items:flex-end;
   width:100%;
 `;
 
@@ -47,7 +48,7 @@ export const ContactWrapper = IntroWrapper.extend`
 `;
 
 export const ContactFormDiv = styled.div`
-  height:70vh;
+  height:80vh;
   display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -115,7 +116,7 @@ export const TitleWrapper = styled.div`
 `;
 
 export const SocialWrapper = styled.div`
-  height: 20vh;
+  height: 30vh;
   display: flex; 
   justify-content: center;
   align-items:center;
@@ -211,7 +212,7 @@ export const Portrait = styled.img`
 
 
 export const AnimationWrapper = styled.div`
-  height: 40vh;
+  height: 30vh;
   display:flex;
   align-items:flex-end;
   overflow:hidden;
