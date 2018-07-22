@@ -15,7 +15,6 @@
     "react-lottie": "^1.2.3",
     "react-router-dom": "^4.3.1",
     "react-router-transition": "^1.2.1",
-    "react-swipe": "^5.1.1",
     "styled-components": "^3.3.3",
     "styled-icons": "^2.3.1"
   },

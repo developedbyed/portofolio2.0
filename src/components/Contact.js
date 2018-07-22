@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-  ContactWrapper, ProjectTitle, Title, ContactForm, Label, Input, TextArea, ContactFormDiv, FormButton,
+  ContactWrapper, ProjectTitle, Title2, ContactForm, Label, Input, TextArea, ContactFormDiv, FormButton,
 } from './StyledComponents';
+import ContactAnimation from './ContactAnimation';
 
 const Contact = () => (
   <ContactWrapper>
     <ProjectTitle>
-      <Title> Contact </Title>
+      <Title2> Contact </Title2>
     </ProjectTitle>
     <ContactFormDiv>
       <ContactForm
@@ -23,6 +24,7 @@ const Contact = () => (
         <FormButton type="submit" value="Send">Submit </FormButton>
       </ContactForm>
     </ContactFormDiv>
+    <ContactAnimation />
   </ContactWrapper>
 );
 

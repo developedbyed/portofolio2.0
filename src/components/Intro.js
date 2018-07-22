@@ -11,9 +11,9 @@ const Intro = () => (
       <SubTitle>Fullstack Developer</SubTitle>
     </TitleWrapper>
     <SocialWrapper>
-      <GithubLogo />
-      <YoutubeLogo />
-      <LinkedinLogo />
+      <a href="https://github.com/devedwin" target="_blank"><GithubLogo /> </a>
+      <a href="https://www.youtube.com/c/DevEd" target="_blank"><YoutubeLogo /> </a>
+      <a href="https://www.linkedin.com/in/simo-edwin-57a25714b/" target="_blank"><LinkedinLogo /></a>
     </SocialWrapper>
     <LootieAnimation />
   </IntroWrapper>

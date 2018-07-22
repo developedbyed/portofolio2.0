@@ -1,12 +1,12 @@
 import Lottie from 'react-lottie';
 import React from 'react';
-import animationData from '../../public/sleep.json';
-import { FireWrapper } from './StyledComponents';
+import animationData from '../../public/contact.json';
+import { PopWrapper } from './StyledComponents';
 
 
-const SleepAnimation = () => {
+const ContactAnimation = () => {
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData,
     rendererSettings: {
@@ -16,10 +16,10 @@ const SleepAnimation = () => {
 
 
   return (
-    <FireWrapper>
+    <PopWrapper>
       <Lottie options={defaultOptions} height={200} width={300} />
-    </FireWrapper>
+    </PopWrapper>
   );
 };
 
-export default SleepAnimation;
+export default ContactAnimation;

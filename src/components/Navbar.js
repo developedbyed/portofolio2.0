@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {
   NavImage, NavLinks, NavWrapper, Portrait,
 } from './StyledComponents';
-import portrait from '../../public/face_optimized.jpg';
+import portrait from '../../public/logo.svg';
 
 
 const Navbar = () => (
@@ -21,9 +21,13 @@ const Navbar = () => (
 );
 
 const NavLink = styled(Link)`
-  color:black;
+  color:white;
   text-decoration:none;
   font-size:18px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+
 `;
 
 export default Navbar;
