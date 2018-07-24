@@ -190,6 +190,7 @@ export const PopWrapper = styled.div`
   position: absolute;
   top: 50%;
   right: 0px;
+  pointer-events: none;
 `;
 
 export const Title = styled.h1`
@@ -276,7 +277,7 @@ export const NavLinks = styled.ul`
     flex-direction: row;
     flex: 3;
     height: 100%;
-    padding: 0px 10px;
+    padding: 0px 20px;
     justify-content: space-between;
   }
 `;
@@ -298,8 +299,8 @@ export const Portrait = styled.img`
   width: 100%;
   
   @media (max-width: 768px) {
-    height:100px;
-    width:100px;
+    height:80px;
+    width:80px;
   }
 `;
 

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {
   NavImage, NavLinks, NavWrapper, Portrait,
 } from './StyledComponents';
-import portrait from '../../public/logo.svg';
+import portrait from '../../public/logoBig.svg';
 
 
 const Navbar = () => (
